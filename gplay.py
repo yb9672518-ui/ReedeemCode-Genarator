@@ -1,7 +1,7 @@
 import random
 import string
 
-bigSet = set()
+bigSet = set(15)
 limit = 1000         #total number of genarations in a run
 
 # num = "0123456789"
@@ -19,7 +19,7 @@ def writeToFile():
         item += "\n"
         file_object.write(item)
 
-    file_object.close()
+    file_object.close(swap)
 
 setLength_old = len(bigSet)
 
@@ -27,7 +27,10 @@ while setLength_old<=limit:
     bigSet.add(getCode())
     if(setLength_old<len(bigSet)):
         setLength_old += 1
-
+15 digit 
 print(bigSet)
 writeToFile()
-print("Print Job Done")
+print("Print Job
+ Done")
+
+
